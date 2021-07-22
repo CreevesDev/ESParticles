@@ -1,0 +1,14 @@
+name: ESParticles
+version: ${project.version}
+main: org.enchantedskies.esparticles.ESParticles
+api-version: 1.16
+authors: [ Creeves ]
+description: Adds particle trails and other effects
+permissions:
+  particles.admin:
+    description: Admin permission for particles
+    default: op
+commands:
+  particle:
+    description: The root command of ES Particles
+    usage: /particle
