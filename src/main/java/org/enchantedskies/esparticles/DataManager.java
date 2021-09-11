@@ -1,5 +1,6 @@
 package org.enchantedskies.esparticles;
 
+import me.creeves.particleslibrary.EffectData;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;

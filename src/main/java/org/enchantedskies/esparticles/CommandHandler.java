@@ -1,5 +1,6 @@
 package org.enchantedskies.esparticles;
 
+import me.creeves.particleslibrary.EffectData;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
@@ -32,6 +33,7 @@ public class CommandHandler implements CommandExecutor, TabExecutor {
         Player player = (Player) sender;
         if (args.length == 0) {
             Bukkit.dispatchCommand(player, "bossshoppro:bossshop ParticleShop");
+            return true;
         }
         String commandToRun = args[0].toLowerCase();
         if (commandToRun.equals("select")) {
